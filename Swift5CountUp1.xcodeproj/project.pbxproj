@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D3853E2024CE5BAE00BAA21A /* Swift5CountUp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift5CountUp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3853E2024CE5BAE00BAA21A /* カウントアップ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "カウントアップ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3853E2324CE5BAE00BAA21A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3853E2524CE5BAE00BAA21A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D3853E2724CE5BAE00BAA21A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		D3853E2124CE5BAE00BAA21A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D3853E2024CE5BAE00BAA21A /* Swift5CountUp1.app */,
+				D3853E2024CE5BAE00BAA21A /* カウントアップ.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = Swift5CountUp1;
 			productName = Swift5CountUp1;
-			productReference = D3853E2024CE5BAE00BAA21A /* Swift5CountUp1.app */;
+			productReference = D3853E2024CE5BAE00BAA21A /* カウントアップ.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -292,9 +292,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.takumi.yam.Swift5CountUp1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "カウントアップ";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,9 +310,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.takumi.yam.Swift5CountUp1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "カウントアップ";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
